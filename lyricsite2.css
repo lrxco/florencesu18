@@ -1,0 +1,181 @@
+.footer{
+	text-align: center;
+	font-size:14px;
+	color: black;
+	background-position: center;
+	background-color: #fff9;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    height: 40px;
+}
+.lyrics{
+	font-family: Avenir;
+	font-size: 18px;
+	color: white;
+	background-position: center;
+	background-color: #e91c1c80;
+	margin-left: 400px;
+/*	margin-right: 400px;
+*/	margin-top: 40px;
+	padding: 10px;
+	width: 50%;
+}
+.verse1{
+	text-align: left;
+	margin-left: 7.5px;
+	width: 465px;
+	transition: background-color 1s;
+	-webkit-transition: background-color 1s;
+	padding: 0px 5px 0px 7.5px;
+}
+.verse1:hover{
+	background-color: #0006;
+	width: 465px;
+	margin-left: 7.5px;
+	padding-left: 7.5px;
+	padding-right: 5px;
+}
+.verse2{
+	text-align: right;
+	margin-right: 10px;
+	width: 379px;
+	margin-left: 428px;
+	transition: background-color 1s;
+	-webkit-transition: background-color 1s;
+	padding: 0px 10px 0px 7.5px;
+}
+.verse2:hover{
+	background-color: #0006;
+	padding-right: 10px;
+	width: 379px;
+}
+.verse3{
+	text-align: left;
+	margin-left: 7.5px;
+	width: 375px;
+	transition: background-color 1s;
+	-webkit-transition: background-color 1s;
+	padding: 0px 5px 0px 7.5px;
+
+}
+.verse3:hover{
+	background-color: #0006;
+	margin-left: 7.5px;
+	padding-left: 7.5px;
+}
+.verse4{
+	text-align: right;
+	margin-right: 10px;
+	width: 391px;
+	margin-left: 415px;
+	transition: background-color 1s;
+	-webkit-transition: background-color 1s;
+	padding: 0px 10px 0px 7.5px;
+
+}
+.verse4:hover{
+	background-color: #0006;
+	padding-right: 10px;
+}
+.chorus1{
+	text-align: center;
+	margin-left: 273px;
+	width: 285px;
+	padding: 2px;
+	transition: background-color 1s;
+	-webkit-transition: background-color 1s;
+}
+.chorus1:hover{
+	background-color: #0006;
+	padding: 2px;
+}
+.chorus2{
+	text-align: center;
+	margin-left: 188px;
+	width: 455px;
+	padding: 2px;
+	transition: background-color 1s;
+	-webkit-transition: background-color 1s;
+}
+.chorus2:hover{
+	background-color: #0006;
+	padding: 2px;
+}
+.outro{
+	text-align: center;
+	margin-left: 151px;
+	width: 525px;
+	padding: 2px;
+	transition: background-color 1s;
+	-webkit-transition: background-color 1s;
+}
+.outro:hover{
+	background-color: #0006;
+	padding: 2px;
+}
+.songinfo{
+	font-family: Avenir, sans-serif;
+	position: fixed;
+    left: 145px;
+    right: 0;
+    top: 19px;
+    height: 40px;
+    color: white;
+    width: 250px;
+}
+.title{
+	font-family: Avenir, sans-serif;
+	font-size: 40px;
+}
+
+.info{
+	font-family: Avenir, sans-serif;
+	font-size: 22px;
+	margin-left: 25px;
+	margin-top: -28px;
+}
+.video{
+	position: absolute;
+    left: 1290px;
+    right: 0;
+    top: 40px;
+    height: 40px;
+}
+.footer:hover{
+	background-color: #fffc;
+}
+/*.allsongs{
+	margin-left: 1300px;
+	margin-top: 40px;
+	padding: 10px;
+	width: 200px;
+	height: 0px
+}
+.allsongs p{
+	color: white;
+	font-family: Avenir, sans-serif;
+	font-size: 20px;
+}*/
+ol{
+	margin-left: 25px;
+	margin-top: 50px;
+	font-family: Avenir, sans-serif;
+	color: white;
+}
+a{
+	color: white;
+}
+a:visited{
+	color: white;
+}
+body{
+    background-image: url('https://www.relix.com/images/uploads/about/81-RisvC+wL._SL1500__.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: black;
+}
