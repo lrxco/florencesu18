@@ -61,7 +61,7 @@ $(document).ready(() => {
         $('.b8').animate({marginLeft:"59.3%", marginTop:"37.9%", width:"40.7%", height:"17.85%"});
     $('div.blocks6').addClass('main').siblings().removeClass('main');
     $('.vid').fadeIn();
-    $('.vimeo').hide().delay(50).fadeIn(500);
+    $('.vimeo').hide().fadeIn(500);
     $('.container').hide();
     $('.copy').hide();
     $('.b6').css("background-image", "none")
