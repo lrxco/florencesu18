@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8"> 
+		<title> venice biennale </title>
+		<link type="text/css" rel="stylesheet" href="css/biennale.css">
+		<script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+		<script type="text/javascript" src="./scripts/biennale.js"></script>
+    	<style>
+			.mySlides {display:none}
+			.w3-left, .w3-right, .w3-badge {cursor:pointer}
+			.w3-badge {height:13px;width:13px;padding:0}
+		</style>
+	</head>
+
+	<body>
+		<div class="logo">
+			<img src="https://i.imgur.com/0Ax8pDh.png">
+		</div>
+
+		<div class="mainbuttons hidden">
+			<div class="menu">
+			</div>
+			<div class="about">
+				<p class="buttons"> ABOUT </p>
+			</div>
+			<div class="images">
+				<p class="buttons"> IMAGES </p>
+			</div>
+			<div class="videos">
+				<p class="buttons"> VIDEOS </p>
+			</div>
+		</div>
+		<div class="blocksmenu hidden">
+			<div class="menu2">
+			</div>
+				<a href="http://www.labiennale.org/en/architecture/2018/national-participations/germany" target="_blank"> <div class="home">
+				<p class="buttons"> BIENNALE </p>
+				</a> 
+			</div>
+			<div class="reset">
+				<a>
+				<p class="buttons"> HOME </p>
+				</a> 
+			</div>
+			<div class="credit">
+				<a href="https://www.unbuildingwalls.de/" target="_blank">
+				<p class="buttons"> CREDIT </p>
+				</a>
+			</div>
+		</div>
+		<div class="blocks1 hidden">
+			<div class="b1">
+				<div class="container">
+					<div class="w3-content w3-display-container">
+						<img class="photo" src="https://i.imgur.com/WMxEhMh.png">
+						<img class="photo" src="https://i.imgur.com/BKLZeTY.jpg">
+						<img class="photo" src="https://i.imgur.com/WR8SSrA.jpg">
+						<img class="photo" src="https://i.imgur.com/PvqcDOW.jpg">
+						<div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+					    	<div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+					    	<div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+					    		<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+					    		<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+					    		<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+					    		<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+						</div>
+					</div>
+					<script>
+						var slideIndex = 1;
+						showDivs(slideIndex);
+
+						function plusDivs(n) {
+						  showDivs(slideIndex += n);
+						}
+
+						function currentDiv(n) {
+						  showDivs(slideIndex = n);
+						}
+
+						function showDivs(n) {
+						  var i;
+						  var x = document.getElementsByClassName("photo");
+						  var dots = document.getElementsByClassName("demo");
+						  if (n > x.length) {slideIndex = 1}    
+						  if (n < 1) {slideIndex = x.length}
+						  for (i = 0; i < x.length; i++) {
+						     x[i].style.display = "none";  
+						  }
+						  for (i = 0; i < dots.length; i++) {
+						     dots[i].className = dots[i].className.replace(" w3-white", "");
+						  }
+						  x[slideIndex-1].style.display = "block";  
+						  dots[slideIndex-1].className += " w3-white";
+						}
+					</script>
+				</div>
+			</div>
+		</div>
+		<div class="blocks hidden">
+			<div class="b2">
+			</div>
+		</div>
+
+		<div class="blocks hidden">
+			<div class="b3">
+			</div>
+		</div>
+
+		<div class="blocks hidden">
+			<div class="b4">
+			</div>
+		</div>
+
+		<div class="blocks hidden">
+			<div class="b5">
+			</div>
+		</div>
+
+		<div class="blocks6 hidden">
+			<div class="b6">
+				<iframe class="vid" src="https://player.vimeo.com/video/270399637?color=009684&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen> </iframe>
+				<div class="buttons vid vimeo"> <a href="https://vimeo.com/user85174420" target="_blank"> <p class="vidbutton"> SEE MORE </p> </a> </div>
+			</div>
+		</div>
+
+		<div class="blocks hidden">
+			<div class="b7">
+			</div>
+		</div>
+
+		<div class="blocks8 hidden">
+			<div class="b8">
+				<p class="copy"> <br> UNBUILDING WALLS, GERMANY'S PAVILION FOR THE 16TH INTERNATIONAL ARCHITECTURE EXHIBITION AT THE 2018 VENICE BIENNALE, DISCUSSES THE CONCEPTS OF DIVISION AND REUNIFICATION WITH SPECIFIC REFERENCE TO THE BERLIN WALL, WHICH, AS OF THIS YEAR, HAS BEEN DOWN FOR 28 YEARS — AS LONG AS IT ONCE STOOD (1961-1989). <br> <br> THE WORK ALSO DISCUSSES BARRIERS IN A MORE GLOBAL SENSE, INVITING THE VIEWER TO QUESTION THE CONTEXTS AND PURPOSES OF SIMILAR CONSTRUCTIONS THROUGH THE WALL OF OPINIONS INSTALLATION, WHICH DOCUMENTS THE PEOPLE AND IDEOLOGIES IN AND AROUND THESE AREAS LIKE THE US-MEXICO BORDER AND THE KOREAN DEMILITARIZED ZONE.
+				</p>
+				<div class="buttons abtbuttons">
+					<div class="copy history"> <a href="https://www.britannica.com/topic/Berlin-Wall" target="_blank"> <p class="readmore"> HISTORY </p> </a> </div>
+					<div class="copy ignant"> <a href="https://www.ignant.com/2018/05/25/unbuilding-walls-the-german-pavilion-at-the-venice-biennale/" target="_blank"> <p class="readmore"> READ MORE </p> </a> </div> 
+				</div>
+			</div>
+		</div>
+
+		<div class="blocks hidden">
+			<div class="b9">
+			</div>
+		</div>
+
+		<div class="blocks hidden">
+			<div class="b0">
+			</div>
+		</div>
+
+		<div class="blocks hidden">
+			<div class="ba">
+			</div>
+		</div>
+
+		<div class="blocks hidden">
+			<div class="bb">
+			</div>
+		</div>
+	</body>
+
+</html>
