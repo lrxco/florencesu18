@@ -1,0 +1,18 @@
+.row{
+	position: relative;
+	width: 100%;
+	height: 500px;
+	background-color: white;
+	margin: 0px;
+}
+.element{
+	height: 100%;
+	background-color: lightgrey;
+}
+.elementinuse{
+	background-color: white;
+}
+.container{
+	height: 200px;
+	width: 100%;
+}
