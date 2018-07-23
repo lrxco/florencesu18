@@ -317,10 +317,10 @@ ul {
 	margin-top: -402px;
 	margin-left: -346px;
 }
-.gcimg1, .gcimg2, .gcimg3, .gcimg4, .gcimg5, .gcimg6, .gcimg7, .gcimg8, .gcimg9, .gcimg10, .gcimg11, .gcimg12, .gcimg13, .gcimg14, .gcimg15, .gcimg16, .gcimg17, .gcimg18, .gcimg19, .gcimg20, .gcimg21, .gcimg22, .gcimg23, .gcimg24, .gcimg25, .gcimg26, .gcimg27, .gcimg28, .gcimg29, .gcimg30, .gcimg31, .gcimg32, .gcimg33, .gcimg34, .gcimg35, .gcimg36, .gcimg37, .gcimg38, .gcimg39, .gcimg40, .gcimg41, .gcimg42, .gcimg43, .gcimg44, .gcimg45, .gcimg46, .gcimg47, .gcimg48, .gcimg49, .gcimg50, .gcimg51, .gcimg52, .gcimg53, .gcimg54, .gcimg55, .gcimg56, .gcimg57, .gcimg58, .gcimg60, .gcimg62, .gcimg63, .gcimg64, .gcimg65, .gcimg66, .gcimg67, .gcimg68, .gcimg69, .gcimg70, .gcimg71, .gcimg72, .gcimg73, .gcimg74, .gcimg75, .gcimg76, .gcimg77, .gcimg78, .gcimg79, .gcimg80, .gcimg81, .gcimg82, .gcimg83, .gcimg84, .gcimg86, .gcimg87, .gcimg88, .gcimg89, .gcimg90, .gcimg92, .gcimg93, .gcimg94, .gcimg95, .gcimg96, .gcimg97, .gcimg98, .gcimg99, .gcimg100{
+.gcimg1, .gcimg2, .gcimg3, .gcimg4, .gcimg5, .gcimg6, .gcimg7, .gcimg8, .gcimg9, .gcimg10, .gcimg11, .gcimg12, .gcimg13, .gcimg14, .gcimg15, .gcimg16, .gcimg17, .gcimg18, .gcimg19, .gcimg20, .gcimg21, .gcimg22, .gcimg23, .gcimg24, .gcimg25, .gcimg26, .gcimg27, .gcimg28, .gcimg29, .gcimg30, .gcimg31, .gcimg32, .gcimg33, .gcimg34, .gcimg35, .gcimg36, .gcimg37, .gcimg38, .gcimg39, .gcimg40, .gcimg41, .gcimg42, .gcimg43, .gcimg44, .gcimg45, .gcimg46, .gcimg47, .gcimg48, .gcimg49, .gcimg50, .gcimg51, .gcimg53, .gcimg54, .gcimg55, .gcimg56, .gcimg57, .gcimg58, .gcimg60, .gcimg62, .gcimg63, .gcimg64, .gcimg65, .gcimg66, .gcimg67, .gcimg68, .gcimg69, .gcimg70, .gcimg71, .gcimg72, .gcimg73, .gcimg74, .gcimg75, .gcimg76, .gcimg77, .gcimg78, .gcimg79, .gcimg80, .gcimg81, .gcimg82, .gcimg83, .gcimg84, .gcimg86, .gcimg87, .gcimg88, .gcimg89, .gcimg90, .gcimg92, .gcimg93, .gcimg94, .gcimg95, .gcimg96, .gcimg97, .gcimg98, .gcimg99, .gcimg100{
 	height: 700px;
 }
-.gcimg59, .gcimg61, .gcimg85, .gcimg91{
+.gcimg52, .gcimg59, .gcimg61, .gcimg85, .gcimg91{
 	height: 500px;
 	margin-top: 100px;
 }
@@ -581,7 +581,7 @@ ul {
 }
 .gcimg52disp{
     position: absolute;
-	margin-left: 23.2%;
+	margin-left: 30.7%;
 	height: 708px;
 }
 .gcimg53disp{
