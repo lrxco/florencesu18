@@ -1083,7 +1083,7 @@ a:hover{
 	white-space: nowrap;
 }
 
-@media only screen and (max-width: 1460px){
+@media only screen and (max-width: 1450px){
 	.allofit{
 		height: 780px;
 	}
